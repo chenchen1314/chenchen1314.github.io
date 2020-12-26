@@ -46,6 +46,7 @@
 
 
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
+<link rel="stylesheet" type="text/css" href="/./search.css">
   <style type="text/css">
   
     #container.show {
@@ -224,7 +225,37 @@
 	<div class="mobile-mask" style="display:none" q-show="isShow"></div>
 </nav>
 
-      <div id="wrapper" class="body-wrap">
+      
+        
+          <div class="page-header" style="">
+              
+              <span>🍻  
+                  <span id="jinrishici-sentence" title="今日诗词">正在加载今日诗词....</span>
+              </span>
+              <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+          
+              
+              <script type="text/javascript" src="/js/search.js"></script>
+              <span id="local-search" class="local-search local-search-plugin" style="">
+                <input type="search" placeholder="站内搜索" id="local-search-input" class="local-search-input-cls" style="">
+                <i id="local-search-icon-search" class="icon" aria-hidden="true" title="站内搜索">🔍</i>
+                <div id="local-search-result" class="local-search-result-cls"></div>
+              </span>
+          
+              <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+              <script>
+                  if ($('.local-search').size()) {
+                    $.getScript('/js/search.js', function() {
+                      searchFunc("/search.xml", 'local-search-input', 'local-search-result');
+                    });
+                  }
+              </script>
+              
+          </div>
+          
+          
+            <div id="wrapper" class="body-wrap">
+
         <div class="menu-l">
           <div class="canvas-wrap">
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
@@ -470,7 +501,11 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-			&copy; 2020 Chen Hao
+		<!--如果有设置theme.since，并且时间小于当前时间（年份），形式为：@ 2018 - 2019(+作者/标题)；否则默认为当前年份(+作者/标题)。 -->
+    
+      &copy; 2020
+  
+  Chen Hao
 			
     	</div>
       	<div class="footer-right">
@@ -505,6 +540,34 @@
   
 	 
 
+  <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+  <script>
+      var now = new Date(); 
+      function createtime() { 
+          var grt= new Date("11/14/2020 12:49:00");//此处修改你的建站时间或者网站上线时间 
+          now.setTime(now.getTime()+250); 
+          days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+          hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+          if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+          mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+          seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+          snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+          document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+          document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+      } 
+  setInterval("createtime()",250);
+  </script>
+  <br>
+  <!-- 《网站备案号 -->
+
+  <div class="BeiAn-info">
+      <img src="https://static.dy208.cn/o_1dfilp8ruo521thr1hvf18ji17soa.png" title="备案管理系统">
+      <a href="http://www.beian.miit.gov.cn/" style="color:#f72b07" target="_blank" title="备案号">
+          粤ICP备00000000号
+      </a>
+  </div>
+
+<!-- 网站备案号》 -->
 
 </footer>
 <!-- 页面点击小红心 -->
