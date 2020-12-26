@@ -134,9 +134,10 @@
     display:inline-block;
     margin-bottom: 0px;
     right: -5%;
+   opacity:0.5;
 }
 .local-search-plugin .local-search-input-cls {
-    opacity: .6;
+    opacity: .2;
     width: 100px;
     transition: all .3s;
 }
