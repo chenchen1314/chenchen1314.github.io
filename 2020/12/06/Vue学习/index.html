@@ -55,9 +55,11 @@
 <meta property="og:image" content="https://s3.ax1x.com/2020/12/06/DjDv1s.png">
 <meta property="og:image" content="https://s3.ax1x.com/2020/12/06/DjrC7T.png">
 <meta property="article:published_time" content="2020-12-06T12:23:50.000Z">
-<meta property="article:modified_time" content="2020-12-16T15:30:17.255Z">
+<meta property="article:modified_time" content="2020-12-28T04:57:37.096Z">
 <meta property="article:author" content="Chen Hao">
 <meta property="article:tag" content="随笔">
+<meta property="article:tag" content="Vue学习">
+<meta property="article:tag" content="入门">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://s3.ax1x.com/2020/12/06/Dj0lNQ.png">
   
@@ -109,6 +111,8 @@
 	        
 				<li><a href="/photos">相册</a></li>
 	        
+				<li><a href="/categories">分类</a></li>
+	        
 				<li><a target="_blank" rel="noopener" href="https://chenchen1314.github.io/resumeanimate/">动态简历</a></li>
 	        
 			</ul>
@@ -154,9 +158,13 @@
 				
 					<a class="weibo" target="_blank" href="//weibo.com/chblog1314" title="weibo"><i class="icon-weibo"></i></a>
 				
+					<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/chenchen1314" title="zhihu"><i class="icon-zhihu"></i></a>
+				
 					<a class="qq" target="_blank" href="/assets/qq.png" title="qq"><i class="icon-qq"></i></a>
 				
 					<a class="weixin" target="_blank" href="/assets/wx.png" title="weixin"><i class="icon-weixin"></i></a>
+				
+					<a class="jianshu" target="_blank" href="https://www.jianshu.com/u/6883ab64ef22" title="jianshu"><i class="icon-jianshu"></i></a>
 				
 					<a class="mail" target="_blank" href="mailto:949548472@qq.com" title="mail"><i class="icon-mail"></i></a>
 				
@@ -207,6 +215,8 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
@@ -216,9 +226,13 @@
 			        
 						<a class="weibo" target="_blank" href="//weibo.com/chblog1314" title="weibo"><i class="icon-weibo"></i></a>
 			        
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/chenchen1314" title="zhihu"><i class="icon-zhihu"></i></a>
+			        
 						<a class="qq" target="_blank" href="/assets/qq.png" title="qq"><i class="icon-qq"></i></a>
 			        
 						<a class="weixin" target="_blank" href="/assets/wx.png" title="weixin"><i class="icon-weixin"></i></a>
+			        
+						<a class="jianshu" target="_blank" href="https://www.jianshu.com/u/6883ab64ef22" title="jianshu"><i class="icon-jianshu"></i></a>
 			        
 						<a class="mail" target="_blank" href="mailto:949548472@qq.com" title="mail"><i class="icon-mail"></i></a>
 			        
@@ -231,15 +245,17 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 20%"><a href="/">主页</a></li>
+					<li style="width: 16.666666666666668%"><a href="/">主页</a></li>
 		        
-					<li style="width: 20%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 16.666666666666668%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 		        
-					<li style="width: 20%"><a href="/archives/index.html">归档</a></li>
+					<li style="width: 16.666666666666668%"><a href="/archives/index.html">归档</a></li>
 		        
-					<li style="width: 20%"><a href="/photos">相册</a></li>
+					<li style="width: 16.666666666666668%"><a href="/photos">相册</a></li>
 		        
-					<li style="width: 20%"><a target="_blank" rel="noopener" href="https://chenchen1314.github.io/resumeanimate/">动态简历</a></li>
+					<li style="width: 16.666666666666668%"><a href="/categories">分类</a></li>
+		        
+					<li style="width: 16.666666666666668%"><a target="_blank" rel="noopener" href="https://chenchen1314.github.io/resumeanimate/">动态简历</a></li>
 		        
 				</ul>
 			</nav>
@@ -318,8 +334,8 @@
           <div style="margin-top:10px;">
   <span class="post-time">
     <span class="post-meta-item-icon">
-      <i class="fa fa-keyboard-o"></i>
-      <span class="post-meta-item-text">  字数统计: </span>
+      <i class="iconfont icon-tongji"></i>
+      <span class="post-meta-item-text">字数统计: </span>
       <span class="post-count">3.2k字</span>
     </span>
   </span>
@@ -327,8 +343,8 @@
   <span class="post-time">
     &nbsp; | &nbsp;
     <span class="post-meta-item-icon">
-      <i class="fa fa-hourglass-half"></i>
-      <span class="post-meta-item-text">  阅读时长: </span>
+      <i class="icon-book icon"></i>
+      <span class="post-meta-item-text">  阅读时长≈ </span>
       <span class="post-count">14分</span>
     </span>
   </span>
@@ -621,6 +637,20 @@ props&#123;
 </ol>
 <h4 id="导入的方式"><a href="#导入的方式" class="headerlink" title="导入的方式"></a>导入的方式</h4><p>  1.imporst {flag,sum} from ‘………..’</p>
 <p>  2.import * as all from   ‘……….’ 全部导入    all.flag</p>
+<blockquote>
+<p><strong>This is my Git ➡️ <a target="_blank" rel="noopener" href="https://github.com/chenchen1314">https://88888888.com</a></strong></p>
+</blockquote>
+<h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://chenchen1314.github.io/">个人博客</a></li>
+<li><a href="">技术笔记</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/chenchen1314">GitHub</a></li>
+<li><a href="">码云</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/u/6883ab64ef22">简书</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/h949548472">CSDN</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/chenchen1314">知乎</a></li>
+<li><a target="_blank" rel="noopener" href="//weibo.com/chblog1314">微博</a></li>
+<li><strong>主要涉及技术：<code>Java后端开发</code>、<code>聚合支付</code>、<code>公众号开发</code>、<code>开源爱好者</code>、<code>Linux</code></strong></li>
+</ul>
 
       
 
@@ -671,6 +701,14 @@ props&#123;
 			 
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Vue学习</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">入门</a>
         		</li>
       		
 		</ul>
@@ -741,11 +779,11 @@ props&#123;
   
 <nav id="article-nav">
   
-    <a href="/2020/12/23/github%E4%BD%BF%E7%94%A8/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/12/28/Git%E5%85%A5%E9%97%A8/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          (no title)
+          Git入门
         
       </div>
     </a>
@@ -774,7 +812,7 @@ props&#123;
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Vue%E7%AC%94%E8%AE%B0"><span class="toc-number">1.</span> <span class="toc-text">Vue笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A5%E4%B8%8B%E6%98%AF%E6%88%91%E6%9C%80%E8%BF%91%E5%AD%A6%E4%B9%A0Vue%E7%9A%84%E6%80%BB%E7%BB%93-%E7%8E%B0%E5%9C%A8%E5%88%86%E4%BA%AB%E7%BB%99%E5%A4%A7%E5%AE%B6%EF%BC%8C%E6%9C%9B%E7%BB%99%E5%A4%A7%E5%AE%B6%E5%B8%A6%E6%9D%A5%E6%94%B6%E8%8E%B7%EF%BC%81"><span class="toc-number">1.1.</span> <span class="toc-text">以下是我最近学习Vue的总结,现在分享给大家，望给大家带来收获！ </span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80-%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.1.</span> <span class="toc-text">一.基本指令的使用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-v-once-%E2%80%94vue%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.1.</span> <span class="toc-text">1.v-once  —vue属性</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-v-html-%E2%80%94vue%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.2.</span> <span class="toc-text">2.v-html   —vue属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%BD%93%E5%90%8E%E5%8F%B0%E4%BC%A0%E8%BF%87%E6%9D%A5%E6%95%B0%E6%8D%AE%E4%B9%8B%E5%90%8E%E5%8E%9F%E6%9C%AC%E6%98%AFstring%E6%96%87%E6%9C%AC%EF%BC%88%E8%BF%99%E6%98%AF%E8%BF%9E%E6%8E%A5%EF%BC%89-%E6%83%B3%E6%8A%8A%E6%95%B0%E6%8D%AE%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%AD%E5%B1%95%E7%A4%BA%E5%88%99%E9%9C%80%E8%A6%81%EF%BC%8C%E4%BD%BF%E7%94%A8v-html%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.2.1.</span> <span class="toc-text">当后台传过来数据之后原本是string文本（这是连接）,想把数据在页面中展示则需要，使用v-html属性</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-v-text-%E2%80%94vue%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.3.</span> <span class="toc-text">3.v-text   —vue属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#v-text%E5%B1%9E%E6%80%A7%E4%BC%9A%E6%8A%8A%E6%96%87%E6%9C%AC%E8%8A%82%E7%82%B9%E4%B8%AD%E7%9A%84%E7%9B%B8%E5%85%B3%E5%B1%9E%E6%80%A7%E6%9B%BF%E6%8D%A2%E6%8E%89%EF%BC%8C"><span class="toc-number">1.1.1.3.1.</span> <span class="toc-text">v-text属性会把文本节点中的相关属性替换掉，</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-v-pre-%E2%80%94vue%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.4.</span> <span class="toc-text">4.v-pre    —vue属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%BF%99%E4%B8%AA%E5%B1%9E%E6%80%A7%E4%B8%8D%E4%BC%9A%E5%AF%B9%E6%8F%92%E5%80%BC%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BF%9B%E8%A1%8C%E5%8C%B9%E9%85%8D%EF%BC%8C%E5%8E%9F%E5%B0%81%E4%B8%8D%E5%8A%A8%E7%9A%84%E5%B0%86%E5%86%85%E5%AE%B9%E7%9B%B4%E6%8E%A5-%E6%B8%B2%E6%9F%93%E5%88%B0%E7%BD%91%E9%A1%B5%E4%B8%8A%E6%9D%A5"><span class="toc-number">1.1.1.4.1.</span> <span class="toc-text">这个属性不会对插值表达式进行匹配，原封不动的将内容直接 渲染到网页上来</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-v-clock-%E2%80%94vue%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.5.</span> <span class="toc-text">5.v-clock   —vue属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%BF%99%E4%B8%AA%E5%B1%9E%E6%80%A7%E5%B0%B1%E6%98%AF%E5%A4%84%E7%90%86%E7%BD%91%E9%80%9F%E8%BF%87%E6%85%A2%E6%97%B6-%E7%BD%91%E9%A1%B5%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%E5%B7%AE%E5%80%BC%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95"><span class="toc-number">1.1.1.5.1.</span> <span class="toc-text">这个属性就是处理网速过慢时,网页上渲染出差值表达式的解决办法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-v-bind-%E2%80%94vue%E5%B1%9E%E6%80%A7%E2%80%93%E5%8A%A8%E6%80%81%E7%BB%91%E5%AE%9Aclass%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.6.</span> <span class="toc-text">6.v-bind   —vue属性–动态绑定class属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%91%A0%E9%80%9A%E8%BF%87%E7%BB%99%E5%B1%9E%E6%80%A7%E5%8A%A0%E4%B8%8A%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%96%B9%E5%BC%8F-%E2%80%94%E2%80%94-%E5%AF%B9%E8%B1%A1%E8%AF%AD%E6%B3%95"><span class="toc-number">1.1.1.6.1.</span> <span class="toc-text">①通过给属性加上对象的方式,{}——-对象语法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%91%A1%E9%80%9A%E8%BF%87%E7%BB%99%E5%B1%9E%E6%80%A7%E5%8A%A0%E4%B8%8A%E6%95%B0%E7%BB%84%E7%9A%84%E6%96%B9%E5%BC%8F-%E2%80%94%E2%80%94-%E6%95%B0%E7%BB%84%E8%AF%AD%E6%B3%95"><span class="toc-number">1.1.1.6.2.</span> <span class="toc-text">②通过给属性加上数组的方式,[]——-数组语法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-v-bind-%E2%80%94vue%E5%B1%9E%E6%80%A7%E2%80%93%E5%8A%A8%E6%80%81%E7%BB%91%E5%AE%9Astyle%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.7.</span> <span class="toc-text">7.v-bind   —vue属性–动态绑定style属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%91%A0%E9%80%9A%E8%BF%87%E7%BB%99%E5%B1%9E%E6%80%A7%E5%8A%A0%E4%B8%8A%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%96%B9%E5%BC%8F-%E2%80%94%E2%80%94-%E5%AF%B9%E8%B1%A1%E8%AF%AD%E6%B3%95-1"><span class="toc-number">1.1.1.7.1.</span> <span class="toc-text">①通过给属性加上对象的方式,{}——-对象语法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%91%A1%E9%80%9A%E8%BF%87%E7%BB%99%E5%B1%9E%E6%80%A7%E5%8A%A0%E4%B8%8A%E6%95%B0%E7%BB%84%E7%9A%84%E6%96%B9%E5%BC%8F-%E2%80%94%E2%80%94-%E6%95%B0%E7%BB%84%E8%AF%AD%E6%B3%95-1"><span class="toc-number">1.1.1.7.2.</span> <span class="toc-text">②通过给属性加上数组的方式,[]——-数组语法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#8-%E8%AE%A1%E7%AE%97%E5%B1%9E%E6%80%A7-%E2%80%94-computed%E8%AE%A1%E7%AE%97%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.8.</span> <span class="toc-text">8.&#x3D;&#x3D;计算属性&#x3D;&#x3D;   —-computed计算属性</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#9-v-on-%E2%80%94-vue%E5%B1%9E%E6%80%A7%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.1.9.</span> <span class="toc-text">9.v-on  —-vue属性的使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#11-%E5%93%AA%E4%BA%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E6%96%B9%E6%B3%95%E6%98%AF%E6%94%AF%E6%8C%81%E6%95%B0%E6%8D%AE%E5%8A%A8%E6%80%81%E6%B8%B2%E6%9F%93"><span class="toc-number">1.1.1.10.</span> <span class="toc-text">11.哪些 数组的方法是支持数据动态渲染</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#12-filter%E8%BF%87%E6%BB%A4%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.1.11.</span> <span class="toc-text">12.filter过滤器的基本使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#14-%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.1.1.12.</span> <span class="toc-text">14.修饰符</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C-ES6%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95"><span class="toc-number">1.1.2.</span> <span class="toc-text">二.ES6的基本语法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-var%E4%B8%8Elet%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">1.1.2.1.</span> <span class="toc-text">1.var与let的区别</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9C%A8es5%E6%97%B6%E5%80%99%EF%BC%88for-if%EF%BC%89%E6%B2%A1%E6%9C%89%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F"><span class="toc-number">1.1.2.1.1.</span> <span class="toc-text">在es5时候（for&#x2F;if）没有块级作用域,</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9C%A8es6%E4%B9%8B%E5%90%8E%E4%BD%BF%E7%94%A8-let-%E5%B0%B1%E6%9C%89%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-%E8%AF%A5%E5%8F%98%E9%87%8F%E5%9C%A8%E8%BF%99%E4%B8%80%E5%9D%97%E7%BA%A7%E4%B8%AD%E6%89%8D%E6%9C%89%E6%95%88%EF%BC%8C%E5%B9%B6%E4%B8%94%E8%A7%84%E8%8C%83%E6%98%AF%E5%BD%93%E4%B8%8E%E7%88%B6%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%86%B2%E7%AA%81%E6%97%B6%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F%E4%B8%AD%E6%9C%89%E7%9A%84%E5%8F%98%E9%87%8F%E4%BC%9A%E4%BC%98%E5%85%88%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9D%97%E7%BA%A7%E4%B8%AD%E7%9A%84%E5%8F%98%E9%87%8F"><span class="toc-number">1.1.2.1.2.</span> <span class="toc-text">在es6之后使用(let)就有块级作用域,该变量在这一块级中才有效，并且规范是当与父级作用域冲突时块级作用域中有的变量会优先使用本块级中的变量</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-const%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.2.2.</span> <span class="toc-text">2.const使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E5%87%BD%E6%95%B0%E7%9A%84%E5%A2%9E%E5%BC%BA%E5%86%99%E6%B3%95"><span class="toc-number">1.1.2.3.</span> <span class="toc-text">3.函数的增强写法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-reduce%E5%87%BD%E6%95%B0"><span class="toc-number">1.1.2.4.</span> <span class="toc-text">3.reduce函数</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E7%BB%84%E4%BB%B6%E4%B8%AD%E7%9A%84%E9%80%9A%E4%BF%A1"><span class="toc-number">1.1.3.</span> <span class="toc-text">4.组件中的通信</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E7%88%B6%E4%BC%A0%E5%AD%90-%E2%80%94%E9%80%9A%E4%BF%A1"><span class="toc-number">1.1.3.1.</span> <span class="toc-text">1.父传子  —通信</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BC%A0%E6%95%B0%E6%8D%AE"><span class="toc-number">1.1.3.1.1.</span> <span class="toc-text">传数据</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6%EF%BC%8C%E7%88%B6%E7%BB%84%E4%BB%B6-%E7%9B%B4%E6%8E%A5-%E8%8E%B7%E5%8F%96%E5%AD%90%E7%BB%84%E4%BB%B6"><span class="toc-number">1.1.3.2.</span> <span class="toc-text">3.父子组件，父组件&#x3D;&#x3D;直接&#x3D;&#x3D;获取子组件</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#this-children%E2%80%94-%E5%9C%A8%E7%88%B6%E7%BB%84%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%AF%A5%E5%B1%9E%E6%80%A7%E5%B0%B1%E8%8E%B7%E5%8F%96%E5%88%B0%E6%89%80%E6%9C%89%E7%9A%84%E5%AD%90%E7%BB%84%E4%BB%B6"><span class="toc-number">1.1.3.2.1.</span> <span class="toc-text">this.$children—-在父组件中使用该属性就获取到所有的子组件</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%AD-%E4%B8%89%E7%A7%8D%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91%E6%96%B9%E5%BC%8F"><span class="toc-number">1.1.4.</span> <span class="toc-text">六.三种模块化开发方式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E5%B0%81%E8%A3%85%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B-%E2%80%94%E2%80%93es5%E5%86%99%E6%B3%95"><span class="toc-number">1.1.4.1.</span> <span class="toc-text">1.封装对象类型  —–es5写法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-module%E5%86%99%E6%B3%95-module-exports-%E2%80%94%E2%80%94%E2%80%94-commonjs"><span class="toc-number">1.1.4.2.</span> <span class="toc-text">2.module写法   module.exports   ———-commonjs</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-es6%E6%A8%A1%E5%9D%97%E5%8C%96"><span class="toc-number">1.1.4.3.</span> <span class="toc-text">3.es6模块化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%BC%E5%87%BA%E7%9A%84%E6%96%B9%E5%BC%8F"><span class="toc-number">1.1.4.4.</span> <span class="toc-text">导出的方式</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#export"><span class="toc-number">1.1.4.4.1.</span> <span class="toc-text">export{</span></a></li><li class="toc-item toc-level-5"><a class="toc-link"><span class="toc-number">1.1.4.4.2.</span> <span class="toc-text">}</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%BC%E5%85%A5%E7%9A%84%E6%96%B9%E5%BC%8F"><span class="toc-number">1.1.4.5.</span> <span class="toc-text">导入的方式</span></a></li></ol></li></ol></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Vue%E7%AC%94%E8%AE%B0"><span class="toc-number">1.</span> <span class="toc-text">Vue笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A5%E4%B8%8B%E6%98%AF%E6%88%91%E6%9C%80%E8%BF%91%E5%AD%A6%E4%B9%A0Vue%E7%9A%84%E6%80%BB%E7%BB%93-%E7%8E%B0%E5%9C%A8%E5%88%86%E4%BA%AB%E7%BB%99%E5%A4%A7%E5%AE%B6%EF%BC%8C%E6%9C%9B%E7%BB%99%E5%A4%A7%E5%AE%B6%E5%B8%A6%E6%9D%A5%E6%94%B6%E8%8E%B7%EF%BC%81"><span class="toc-number">1.1.</span> <span class="toc-text">以下是我最近学习Vue的总结,现在分享给大家，望给大家带来收获！ </span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80-%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.1.</span> <span class="toc-text">一.基本指令的使用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-v-once-%E2%80%94vue%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.1.</span> <span class="toc-text">1.v-once  —vue属性</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-v-html-%E2%80%94vue%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.2.</span> <span class="toc-text">2.v-html   —vue属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%BD%93%E5%90%8E%E5%8F%B0%E4%BC%A0%E8%BF%87%E6%9D%A5%E6%95%B0%E6%8D%AE%E4%B9%8B%E5%90%8E%E5%8E%9F%E6%9C%AC%E6%98%AFstring%E6%96%87%E6%9C%AC%EF%BC%88%E8%BF%99%E6%98%AF%E8%BF%9E%E6%8E%A5%EF%BC%89-%E6%83%B3%E6%8A%8A%E6%95%B0%E6%8D%AE%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%AD%E5%B1%95%E7%A4%BA%E5%88%99%E9%9C%80%E8%A6%81%EF%BC%8C%E4%BD%BF%E7%94%A8v-html%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.2.1.</span> <span class="toc-text">当后台传过来数据之后原本是string文本（这是连接）,想把数据在页面中展示则需要，使用v-html属性</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-v-text-%E2%80%94vue%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.3.</span> <span class="toc-text">3.v-text   —vue属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#v-text%E5%B1%9E%E6%80%A7%E4%BC%9A%E6%8A%8A%E6%96%87%E6%9C%AC%E8%8A%82%E7%82%B9%E4%B8%AD%E7%9A%84%E7%9B%B8%E5%85%B3%E5%B1%9E%E6%80%A7%E6%9B%BF%E6%8D%A2%E6%8E%89%EF%BC%8C"><span class="toc-number">1.1.1.3.1.</span> <span class="toc-text">v-text属性会把文本节点中的相关属性替换掉，</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-v-pre-%E2%80%94vue%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.4.</span> <span class="toc-text">4.v-pre    —vue属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%BF%99%E4%B8%AA%E5%B1%9E%E6%80%A7%E4%B8%8D%E4%BC%9A%E5%AF%B9%E6%8F%92%E5%80%BC%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BF%9B%E8%A1%8C%E5%8C%B9%E9%85%8D%EF%BC%8C%E5%8E%9F%E5%B0%81%E4%B8%8D%E5%8A%A8%E7%9A%84%E5%B0%86%E5%86%85%E5%AE%B9%E7%9B%B4%E6%8E%A5-%E6%B8%B2%E6%9F%93%E5%88%B0%E7%BD%91%E9%A1%B5%E4%B8%8A%E6%9D%A5"><span class="toc-number">1.1.1.4.1.</span> <span class="toc-text">这个属性不会对插值表达式进行匹配，原封不动的将内容直接 渲染到网页上来</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-v-clock-%E2%80%94vue%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.5.</span> <span class="toc-text">5.v-clock   —vue属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%BF%99%E4%B8%AA%E5%B1%9E%E6%80%A7%E5%B0%B1%E6%98%AF%E5%A4%84%E7%90%86%E7%BD%91%E9%80%9F%E8%BF%87%E6%85%A2%E6%97%B6-%E7%BD%91%E9%A1%B5%E4%B8%8A%E6%B8%B2%E6%9F%93%E5%87%BA%E5%B7%AE%E5%80%BC%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95"><span class="toc-number">1.1.1.5.1.</span> <span class="toc-text">这个属性就是处理网速过慢时,网页上渲染出差值表达式的解决办法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-v-bind-%E2%80%94vue%E5%B1%9E%E6%80%A7%E2%80%93%E5%8A%A8%E6%80%81%E7%BB%91%E5%AE%9Aclass%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.6.</span> <span class="toc-text">6.v-bind   —vue属性–动态绑定class属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%91%A0%E9%80%9A%E8%BF%87%E7%BB%99%E5%B1%9E%E6%80%A7%E5%8A%A0%E4%B8%8A%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%96%B9%E5%BC%8F-%E2%80%94%E2%80%94-%E5%AF%B9%E8%B1%A1%E8%AF%AD%E6%B3%95"><span class="toc-number">1.1.1.6.1.</span> <span class="toc-text">①通过给属性加上对象的方式,{}——-对象语法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%91%A1%E9%80%9A%E8%BF%87%E7%BB%99%E5%B1%9E%E6%80%A7%E5%8A%A0%E4%B8%8A%E6%95%B0%E7%BB%84%E7%9A%84%E6%96%B9%E5%BC%8F-%E2%80%94%E2%80%94-%E6%95%B0%E7%BB%84%E8%AF%AD%E6%B3%95"><span class="toc-number">1.1.1.6.2.</span> <span class="toc-text">②通过给属性加上数组的方式,[]——-数组语法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-v-bind-%E2%80%94vue%E5%B1%9E%E6%80%A7%E2%80%93%E5%8A%A8%E6%80%81%E7%BB%91%E5%AE%9Astyle%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.7.</span> <span class="toc-text">7.v-bind   —vue属性–动态绑定style属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%91%A0%E9%80%9A%E8%BF%87%E7%BB%99%E5%B1%9E%E6%80%A7%E5%8A%A0%E4%B8%8A%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%96%B9%E5%BC%8F-%E2%80%94%E2%80%94-%E5%AF%B9%E8%B1%A1%E8%AF%AD%E6%B3%95-1"><span class="toc-number">1.1.1.7.1.</span> <span class="toc-text">①通过给属性加上对象的方式,{}——-对象语法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%91%A1%E9%80%9A%E8%BF%87%E7%BB%99%E5%B1%9E%E6%80%A7%E5%8A%A0%E4%B8%8A%E6%95%B0%E7%BB%84%E7%9A%84%E6%96%B9%E5%BC%8F-%E2%80%94%E2%80%94-%E6%95%B0%E7%BB%84%E8%AF%AD%E6%B3%95-1"><span class="toc-number">1.1.1.7.2.</span> <span class="toc-text">②通过给属性加上数组的方式,[]——-数组语法</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#8-%E8%AE%A1%E7%AE%97%E5%B1%9E%E6%80%A7-%E2%80%94-computed%E8%AE%A1%E7%AE%97%E5%B1%9E%E6%80%A7"><span class="toc-number">1.1.1.8.</span> <span class="toc-text">8.&#x3D;&#x3D;计算属性&#x3D;&#x3D;   —-computed计算属性</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#9-v-on-%E2%80%94-vue%E5%B1%9E%E6%80%A7%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.1.9.</span> <span class="toc-text">9.v-on  —-vue属性的使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#11-%E5%93%AA%E4%BA%9B-%E6%95%B0%E7%BB%84%E7%9A%84%E6%96%B9%E6%B3%95%E6%98%AF%E6%94%AF%E6%8C%81%E6%95%B0%E6%8D%AE%E5%8A%A8%E6%80%81%E6%B8%B2%E6%9F%93"><span class="toc-number">1.1.1.10.</span> <span class="toc-text">11.哪些 数组的方法是支持数据动态渲染</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#12-filter%E8%BF%87%E6%BB%A4%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.1.11.</span> <span class="toc-text">12.filter过滤器的基本使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#14-%E4%BF%AE%E9%A5%B0%E7%AC%A6"><span class="toc-number">1.1.1.12.</span> <span class="toc-text">14.修饰符</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C-ES6%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95"><span class="toc-number">1.1.2.</span> <span class="toc-text">二.ES6的基本语法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-var%E4%B8%8Elet%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">1.1.2.1.</span> <span class="toc-text">1.var与let的区别</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9C%A8es5%E6%97%B6%E5%80%99%EF%BC%88for-if%EF%BC%89%E6%B2%A1%E6%9C%89%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F"><span class="toc-number">1.1.2.1.1.</span> <span class="toc-text">在es5时候（for&#x2F;if）没有块级作用域,</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9C%A8es6%E4%B9%8B%E5%90%8E%E4%BD%BF%E7%94%A8-let-%E5%B0%B1%E6%9C%89%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F-%E8%AF%A5%E5%8F%98%E9%87%8F%E5%9C%A8%E8%BF%99%E4%B8%80%E5%9D%97%E7%BA%A7%E4%B8%AD%E6%89%8D%E6%9C%89%E6%95%88%EF%BC%8C%E5%B9%B6%E4%B8%94%E8%A7%84%E8%8C%83%E6%98%AF%E5%BD%93%E4%B8%8E%E7%88%B6%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%86%B2%E7%AA%81%E6%97%B6%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F%E4%B8%AD%E6%9C%89%E7%9A%84%E5%8F%98%E9%87%8F%E4%BC%9A%E4%BC%98%E5%85%88%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9D%97%E7%BA%A7%E4%B8%AD%E7%9A%84%E5%8F%98%E9%87%8F"><span class="toc-number">1.1.2.1.2.</span> <span class="toc-text">在es6之后使用(let)就有块级作用域,该变量在这一块级中才有效，并且规范是当与父级作用域冲突时块级作用域中有的变量会优先使用本块级中的变量</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-const%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.2.2.</span> <span class="toc-text">2.const使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E5%87%BD%E6%95%B0%E7%9A%84%E5%A2%9E%E5%BC%BA%E5%86%99%E6%B3%95"><span class="toc-number">1.1.2.3.</span> <span class="toc-text">3.函数的增强写法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-reduce%E5%87%BD%E6%95%B0"><span class="toc-number">1.1.2.4.</span> <span class="toc-text">3.reduce函数</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E7%BB%84%E4%BB%B6%E4%B8%AD%E7%9A%84%E9%80%9A%E4%BF%A1"><span class="toc-number">1.1.3.</span> <span class="toc-text">4.组件中的通信</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E7%88%B6%E4%BC%A0%E5%AD%90-%E2%80%94%E9%80%9A%E4%BF%A1"><span class="toc-number">1.1.3.1.</span> <span class="toc-text">1.父传子  —通信</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BC%A0%E6%95%B0%E6%8D%AE"><span class="toc-number">1.1.3.1.1.</span> <span class="toc-text">传数据</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6%EF%BC%8C%E7%88%B6%E7%BB%84%E4%BB%B6-%E7%9B%B4%E6%8E%A5-%E8%8E%B7%E5%8F%96%E5%AD%90%E7%BB%84%E4%BB%B6"><span class="toc-number">1.1.3.2.</span> <span class="toc-text">3.父子组件，父组件&#x3D;&#x3D;直接&#x3D;&#x3D;获取子组件</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#this-children%E2%80%94-%E5%9C%A8%E7%88%B6%E7%BB%84%E4%BB%B6%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%AF%A5%E5%B1%9E%E6%80%A7%E5%B0%B1%E8%8E%B7%E5%8F%96%E5%88%B0%E6%89%80%E6%9C%89%E7%9A%84%E5%AD%90%E7%BB%84%E4%BB%B6"><span class="toc-number">1.1.3.2.1.</span> <span class="toc-text">this.$children—-在父组件中使用该属性就获取到所有的子组件</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%AD-%E4%B8%89%E7%A7%8D%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91%E6%96%B9%E5%BC%8F"><span class="toc-number">1.1.4.</span> <span class="toc-text">六.三种模块化开发方式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E5%B0%81%E8%A3%85%E5%AF%B9%E8%B1%A1%E7%B1%BB%E5%9E%8B-%E2%80%94%E2%80%93es5%E5%86%99%E6%B3%95"><span class="toc-number">1.1.4.1.</span> <span class="toc-text">1.封装对象类型  —–es5写法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-module%E5%86%99%E6%B3%95-module-exports-%E2%80%94%E2%80%94%E2%80%94-commonjs"><span class="toc-number">1.1.4.2.</span> <span class="toc-text">2.module写法   module.exports   ———-commonjs</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-es6%E6%A8%A1%E5%9D%97%E5%8C%96"><span class="toc-number">1.1.4.3.</span> <span class="toc-text">3.es6模块化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%BC%E5%87%BA%E7%9A%84%E6%96%B9%E5%BC%8F"><span class="toc-number">1.1.4.4.</span> <span class="toc-text">导出的方式</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#export"><span class="toc-number">1.1.4.4.1.</span> <span class="toc-text">export{</span></a></li><li class="toc-item toc-level-5"><a class="toc-link"><span class="toc-number">1.1.4.4.2.</span> <span class="toc-text">}</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%BC%E5%85%A5%E7%9A%84%E6%96%B9%E5%BC%8F"><span class="toc-number">1.1.4.5.</span> <span class="toc-text">导入的方式</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E6%88%91"><span class="toc-number">2.</span> <span class="toc-text">关于我</span></a></li></ol>
                     </div>
                 </span>
             </div>
@@ -1068,6 +1106,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Git入门</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Vue学习</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">入门</a>
               </li>
             
             <div class="clearfix"></div>
