@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'http://qm39dsyb9.hn-bkt.clouddn.com/' + data.link[i];
-          var src = 'https://raw.githubusercontent.com/chenchen1314/photos/main/photos/' + data.link[i];
+          var minSrc = 'http://img2.ch1314.cn/' + data.link[i];
+          var src = 'http://img.ch1314.cn/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
