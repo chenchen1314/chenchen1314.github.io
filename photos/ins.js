@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://s3.ax1x.com/2020/12/29/' + data.link[i];
-          var src = 'https://s3.ax1x.com/2020/12/29/' + data.link[i];
+          var minSrc = 'https://raw.githubusercontent.com/chenchen1314/photos/main/min_photos/' + data.link[i];
+          var src = 'https://raw.githubusercontent.com/chenchen1314/photos/main/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
